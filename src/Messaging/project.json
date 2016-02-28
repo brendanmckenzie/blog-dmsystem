@@ -1,0 +1,17 @@
+{
+  "version": "1.0.0-*",
+  "description": "",
+  "authors": [
+    "Brendan McKenzie"
+  ],
+  "tags": [
+    "blog",
+    "messaging"
+  ],
+  "projectUrl": "https://github.com/brendanmckenzie/blog-dmsystem",
+  "licenseUrl": "",
+  "dependencies": { },
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}

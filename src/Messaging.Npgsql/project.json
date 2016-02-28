@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0-*",
+  "description": "",
+  "authors": [
+    "Brendan McKenzie"
+  ],
+  "tags": [
+    "blog",
+    "messaging"
+  ],
+  "projectUrl": "https://github.com/brendanmckenzie/blog-dmsystem",
+  "licenseUrl": "",
+  "dependencies": {
+    "Messaging": "",
+    "Npgsql": "3.1.0-*"
+  },
+  "frameworks": {
+    "dnxcore50": { }
+  }
+}
