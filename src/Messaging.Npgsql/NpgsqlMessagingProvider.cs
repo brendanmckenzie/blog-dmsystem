@@ -6,6 +6,11 @@ namespace Messaging.Npgsql
 {
     public class NpgsqlMessagingProvider : IMessagingProvider
     {
+        public void AddUser(Guid user, Guid conversation)
+        {
+            throw new NotImplementedException();
+        }
+
         public void ArchiveConversation(Guid user, Guid conversation)
         {
             throw new NotImplementedException();

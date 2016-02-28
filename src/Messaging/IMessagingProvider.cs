@@ -1,3 +1,5 @@
+using System;
+using System.Collections.Generic;
 using Messaging.Models;
 
 namespace Messaging
@@ -17,5 +19,7 @@ namespace Messaging
         void Search(string query);
 
         IEnumerable<Conversation> ListConversations(Guid user, ConversationStatus? status = null);
+
+        void AddUser(Guid user, Guid conversation);
     }
 }

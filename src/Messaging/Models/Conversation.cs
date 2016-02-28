@@ -1,3 +1,5 @@
+using System;
+
 namespace Messaging.Models
 {
     public enum ConversationStatus
@@ -9,6 +11,7 @@ namespace Messaging.Models
 
     public class Conversation
     {
-
+        public DateTime Created { get; set; }
+        public DateTime LastMessage { get; set; }
     }
 }
