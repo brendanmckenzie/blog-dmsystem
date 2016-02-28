@@ -41,7 +41,7 @@ namespace Messaging.Npgsql
             throw new NotImplementedException();
         }
 
-        public int UnreadMessages(Guid user)
+        public int UnreadMessageCount(Guid user)
         {
             throw new NotImplementedException();
         }

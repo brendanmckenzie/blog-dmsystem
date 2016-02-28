@@ -8,7 +8,7 @@ namespace Messaging
     {
         void StartConversation(Guid initiator, Guid recipient, string subject, string message);
 
-        int UnreadMessages(Guid user);
+        int UnreadMessageCount(Guid user);
 
         void SendMessage(Guid user, Guid conversation, string message);
 
